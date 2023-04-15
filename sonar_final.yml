@@ -10,8 +10,8 @@ services:
       - SONARQUBE_JDBC_USERNAME=postgres
       - SONARQUBE_JDBC_PASSWORD=postgres
       - SONARQUBE_JDBC_URL=jdbc:postgresql://db:5432/sonarqube 
-      - SONAR_SEARCH_PORT = 9200 
-      - SOANR_SEARCH_HOST = /es01:9200
+      - SONAR_SEARCH_PORT=9200 
+      - SOANR_SEARCH_HOST=/es01:9200
     ports:
       - "9000:9000"
       - "9092:9092"
